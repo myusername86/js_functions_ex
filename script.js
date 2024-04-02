@@ -30,3 +30,13 @@ function circle(radious)
 }
 
 circle(5)
+
+function three_para(x,y,z)
+{
+    var sum=x+y+z
+    console.log("sum of three no is:" +sum)
+}
+
+three_para(10,20,30);
+three_para(12,45,"yuva")
+three_para("yuva",45,7)
